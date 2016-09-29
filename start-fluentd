@@ -11,7 +11,7 @@ FLUENTD_BUFFER_TYPE=${FLUENTD_BUFFER_TYPE:-memory}
 FLUENTD_BUFFER_PATH=${FLUENTD_BUFFER_PATH:-/var/fluentd/buffer}
 FLUENTD_LOGSTASH_PREFIX=${FLUENTD_LOGSTASH_PREFIX:-logstash}
 FLUENTD_RELOAD_CONNECTIONS=${FLUENTD_RELOAD_CONNECTIONS:-false}
-AWS_ELASTICSEARCH_ENDPOINT=${AWS_ELASTICSEARCH_ENDPOINT:-https://search-elk-wcoyw3kpqfzvesc7bq2ejnxy3i.us-east-1.es.amazonaws.com}
+AWS_ELASTICSEARCH_ENDPOINT=${AWS_ELASTICSEARCH_ENDPOINT:-https://search-elk-yourendpoint.us-east-1.es.amazonaws.com}
 AWS_REGION=${AWS_REGION:-us-east-1}
 
 conf_file=/etc/td-agent/td-agent.conf
